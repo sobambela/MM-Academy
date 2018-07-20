@@ -1,0 +1,205 @@
+/* Start Media Queries */
+
+@-moz-document url-prefix() {
+
+
+}
+
+@media only screen and (max-width: 1200px)  {
+
+    .container {
+        padding-right: 0px !important; 
+        padding-left: 0px !important; 
+    }
+}
+@media only screen and (max-width: 990px)  {
+
+    .container {
+        padding-right: 0 !important; 
+        padding-left: 0px !important; 
+        width: 745px;
+    }
+    .container .navbar-header{
+        width: 195px;
+    }
+    #header-main .navbar-brand {
+        padding: 33px 0 0 !important;
+    }  
+    #header-main .navbar-nav > li > a {
+        font-size: 10px !important;
+    }
+
+    .tp-caption {
+        z-index: 1;
+        white-space: nowrap;
+        color: #fff !important;
+        font-size: 13px !important;
+        padding: 9px 7px !important;
+    }
+    #testimonial .owl-wrapper-outer{
+        min-height: 260px !important;
+    }
+    .full-contact {
+        padding: 0px 30px 20px 30px !important;
+    }    
+}
+@media only screen and (max-width: 550px)  {
+
+    .row {  
+        padding: 1px 20px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }   
+    #header-main .yamm img {
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+    #testimonial .owl-wrapper-outer{
+        min-height: 333px !important;
+    }
+    .about-heading, .reasons-title-blue{
+        padding-top: 30px !important;
+        margin-top: 0px;
+    }
+    #header-main .yamm .dropdown-menu {
+        right: auto;
+        display: block;
+    }
+    .full-contact {
+        padding: 0px 30px 20px 30px !important;
+    }  
+    .home-contact-form .row, .home-contact-form .col-md-6{
+        padding: 0 !important;
+    }
+    #about-principal-section .apply-now-btn{
+        margin-bottom: 18px;
+    }
+    .blog-content-all {
+        padding-right: 0 !important;
+    }
+    #curriculum-section .curriculum-bg{
+        border-right: none !important; 
+    }    
+    #curriculum-section .row{
+        padding: 0 0 0 0 !important; 
+    }    
+    #curriculum-section .row .col-md-4{
+        border-bottom: solid 3px #A39161 !important; 
+    }    
+    #curriculum-section .row .col-md-4:last-child{
+        border-bottom: none !important; 
+    } 
+    .clock-overlay{
+        display: none;
+      }
+}
+@media only screen and (max-width: 770px)  {
+    .container .navbar-header{
+        width: 100%;
+    }
+    #header-main .navbar-brand {
+        padding: 0px 0 0 !important;
+    }    
+    #testimonial .owl-wrapper-outer{
+        min-height: 333px !important;
+    }
+    #header-main .yamm .dropdown-menu {
+        right: auto;
+        display: block;
+    }
+    .full-contact {
+        padding: 0px 30px 20px 30px !important;
+    }
+    #bout-principal-section .apply-now-btn{
+        margin-bottom: 18px;
+    }
+    .blog-content-all {
+        padding-right: 0 !important;
+    }
+    #curriculum-section .curriculum-bg{
+        border-right: none !important; 
+    }    
+    #curriculum-section .row{
+        padding: 0 0 0 0 !important; 
+    }    
+    #curriculum-section .row .col-md-4{
+        border-bottom: solid 3px #A39161 !important; 
+    }    
+    #curriculum-section .row .col-md-4:last-child{
+        border-bottom: none !important; 
+    } 
+    .clock-overlay{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1098px)  {
+
+}
+
+/* End Media Queries */
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+.loader{
+    width: 25px;
+    height: 25px;
+    background: url(/images/loader.gif) no-repeat center center;
+    position: relative;
+    margin: -34px auto;
+    left: 49px;
+}
+.img-principal {
+    width: 180px !important
+}
+#testimonial .owl-wrapper-outer{
+    min-height: 230px;
+}
+.clock-overlay{
+  width: 100%;
+  height: 100%;
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  /*z-index: 100;*/
+}
+.clock-overlay #clockdiv{
+    /*padding: 9% 30%;*/
+}
+.clock-overlay #clockdiv .smalltext{
+    text-shadow: 0 5px 10px #000;
+    margin-left: 0;
+    padding-left: 0;    
+}
+.clock-overlay #clockdiv span::after{
+     content: ":";
+    margin-left: 48px;
+    color: #7B0013;     
+}
+.clock-overlay #clockdiv span.seconds::after{
+     content: "";   
+}
+.clock-overlay #clockdiv .fullscreen_background {
+        width: 0 !important;
+}
+.clock-overlay #clockdiv .innerText {
+    margin-top: -17px !important;
+    padding-top: 0 !important;
+}
+
+
